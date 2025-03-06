@@ -1,0 +1,82 @@
+.backup-container.backup {
+    margin-top: 50px;
+  max-width: 600px;
+  margin: 150px auto 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header.backup {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.backup-section.backup,
+.restore-section.backup {
+  margin-bottom: 30px;
+}
+
+.button.backup {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button.backup:hover {
+  background-color: #0056b3;
+}
+
+.backup-button.backup.backup {
+  background-color: #28a745;
+}
+
+.backup-button.backup:hover {
+  background-color: #218838;
+}
+
+.restore-button.backup {
+  background-color: #ffc107;
+}
+
+.restore-button.backup:hover {
+  background-color: #e0a800;
+}
+
+.restore-button.backup:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+.file-label.backup {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.file-input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.status.backup {
+  margin-top: 10px;
+  color: #666;
+  font-style: italic;
+}

@@ -1,0 +1,41 @@
+/* CSS cho component Result_Course */
+.top-result-course {
+  margin-bottom: 20px;
+}
+
+.bottom-result-course {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-result-course>div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  /* Để bảng có thể cuộn ngang nếu quá rộng */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+.select.show-more.course-result {
+  padding: 7px 10px;
+  border-radius: 4px;
+}

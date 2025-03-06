@@ -1,0 +1,82 @@
+.tableContainer {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tableCell {
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Đảm bảo nội dung quá dài không làm bảng bị vỡ */
+}
+
+.headerCell {
+    font-weight: bold !important;
+    background-color: #f5f5f5 !important;
+    /* Light gray background */
+    /* Optionally, you can add padding, text alignment, etc. */
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px !important;
+    text-align: left;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 5%;
+    /* Cố định chiều rộng cho cột 1 (Title) */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 5%;
+    /* Cố định chiều rộng cho cột 2 (Author) */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    width: 20%;
+    /* Cố định chiều rộng cho cột 3 (Category) */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+    width: 10%;
+    /* Cố định chiều rộng cho cột 4 (Status) */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+    width: 15%;
+    /* Cố định chiều rộng cho cột 5 (Actions) */
+}
+
+.table th:nth-child(6),
+.table td:nth-child(6) {
+    width: 15%;
+    /* Cố định chiều rộng cho cột 5 (Actions) */
+}
+.table th:nth-child(7),
+.table td:nth-child(7) {
+    width: 5%;
+    /* Cố định chiều rộng cho cột 5 (Actions) */
+}
+.table th:nth-child(8),
+.table td:nth-child(8) {
+    width: 10%;
+    /* Cố định chiều rộng cho cột 5 (Actions) */
+}
+.table th:nth-child(9),
+.table td:nth-child(9) {
+    width: 15%;
+    /* Cố định chiều rộng cho cột 5 (Actions) */
+}

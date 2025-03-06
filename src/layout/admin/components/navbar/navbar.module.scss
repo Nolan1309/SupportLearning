@@ -1,0 +1,24 @@
+/* navbar.module.scss */
+
+.navbar {
+    background-color: #1976d2;
+    /* Màu nền của Navbar */
+    color: #fff;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: flex-end;
+    /* Đẩy các mục menu về phía bên phải */
+    align-items: center;
+}
+
+.menuItems {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 20px;
+}

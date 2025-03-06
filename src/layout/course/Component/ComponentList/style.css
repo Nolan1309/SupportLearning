@@ -1,0 +1,25 @@
+.item.search-course.mb-4 {
+    padding: 40px 30px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+}
+.item.search-course{
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+.search-course.input-wrp{
+    position: relative;
+}
+.search-course.input-wrp input{
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+.search-course.input-wrp button{
+    position: absolute;
+    top: 13px;
+    right: 18px;
+    color: #181818;
+}

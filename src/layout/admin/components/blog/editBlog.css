@@ -1,0 +1,14 @@
+.ck-editor-edit .ck-reset.ck-editor {
+    height: 350px;
+    overflow-y: auto;
+}
+.add-blog-ck-editor .ck-reset.ck-editor{
+    height: 300px;
+    overflow: auto;
+}
+.ck-editor__main {
+    height: 100%;
+}
+.ck-content.ck-editor__editable.ck-rounded-corners {
+    height: 100%;
+}

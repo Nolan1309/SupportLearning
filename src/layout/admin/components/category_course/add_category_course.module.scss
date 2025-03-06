@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 80vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.paper {
+    padding: 30px;
+    max-width: 500px;
+    /* Giảm độ rộng của Paper để phù hợp với form */
+    width: 100%;
+    margin: 0 auto;
+    /* Căn giữa Paper */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.headerBold {
+    font-weight: bold;
+    font-size: 24px !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+}
+
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.errorMessage {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.successMessage {
+    color: #4caf50;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.textField {
+    margin-bottom: 15px;
+}
+
+.textField .MuiInputBase-input[readonly] {
+    color: #666;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button {
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2c387e;
+    color: #fff;
+}
+
+.button:disabled {
+    background-color: #b0bec5;
+    cursor: not-allowed;
+}
+
+.circularProgress {
+    display: block;
+    margin: 20px auto;
+}

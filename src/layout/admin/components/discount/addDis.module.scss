@@ -1,0 +1,83 @@
+/* addDiscount.module.scss */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 80vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.paper {
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+
+.divider {
+    margin-bottom: 20px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textField {
+    margin-bottom: 15px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttonPrimary {
+    background-color: #1976d2;
+    color: #fff;
+
+    &:hover {
+        background-color: #115293;
+    }
+
+    &:disabled {
+        background-color: #90caf9;
+        cursor: not-allowed;
+    }
+}
+
+.buttonSecondary {
+    background-color: #e0e0e0;
+    color: #333;
+
+    &:hover {
+        background-color: #bdbdbd;
+    }
+
+    &:disabled {
+        background-color: #f5f5f5;
+        cursor: not-allowed;
+    }
+}

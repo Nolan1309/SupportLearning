@@ -1,0 +1,184 @@
+.Container {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 30px !important;
+  // padding-bottom: 20px;
+  margin: 0px !important;
+  text-transform: uppercase;
+}
+
+.headContainer {
+  display: flex;
+  justify-content: space-between;
+  /* Căn chỉnh các phần tử về hai phía */
+  align-items: center;
+  /* Căn chỉnh theo chiều dọc */
+  margin-bottom: 20px;
+  /* Thêm khoảng cách dưới container */
+}
+
+.whiteBtn {
+  color: white !important;
+
+  .MuiButton-startIcon {
+    color: white !important;
+  }
+
+  span {
+    color: white !important;
+  }
+}
+
+.searchField {
+  max-width: 250px;
+  flex: 1;
+
+  :global(.MuiInputLabel-outlined.MuiInputLabel-marginDense) {
+    transform: translate(14px, 12px) scale(1) !important;
+
+    /* Thay đổi màu sắc thành trắng */
+  }
+
+  :global(.MuiInputLabel-outlined.MuiInputLabel-shrink) {
+    transform: translate(14px, -20px) scale(0.75) !important;
+
+    /* Thay đổi màu sắc thành trắng */
+  }
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // gap: 20px;
+  /* Khoảng cách giữa thanh tìm kiếm và các nút hành động */
+  flex-wrap: wrap;
+  /* Đảm bảo các phần tử xuống dòng trên các màn hình nhỏ */
+  // margin-bottom: 20px;
+}
+
+.toolbarleft {
+  display: flex;
+  gap: 5px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  /* Để các nút cách đều nhau */
+  gap: 10px;
+  /* Khoảng cách giữa các nút */
+  flex-wrap: wrap;
+  /* Nếu màn hình nhỏ, các nút sẽ tự động xuống dòng */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-admin-actions {
+  margin: 0;
+  /* Loại bỏ margin mặc định của nút */
+}
+
+.tableContainer {
+  min-height: 600px;
+  // overflow-y: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 0.5px solid #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.tableCell {
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Đảm bảo nội dung quá dài không làm bảng bị vỡ */
+}
+
+.headerCell {
+  font-weight: bold !important;
+  background-color: #eeebf3 !important;
+  color: #5e35b1;
+  font-size: 14px !important;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px !important;
+  text-align: left;
+  font-size: 14px !important;
+}
+
+.table th {
+  cursor: pointer;
+  /* Để người dùng biết có thể click để sắp xếp */
+  background-color: #f5f5f5;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+  width: 5%;
+  /* Cố định chiều rộng cho cột 1 (Title) */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+  width: 5%;
+  /* Cố định chiều rộng cho cột 2 (Author) */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+  width: 20%;
+  /* Cố định chiều rộng cho cột 3 (Category) */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+  width: 10%;
+  /* Cố định chiều rộng cho cột 4 (Status) */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+  width: 15%;
+  /* Cố định chiều rộng cho cột 5 (Actions) */
+}
+
+.cell-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+
+.cell-content span {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.truncate {
+  display: inline-block;
+  max-width: 150px;
+  /* Giới hạn chiều rộng */
+  white-space: nowrap;
+  /* Ngăn xuống dòng */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Thêm dấu "..." nếu nội dung bị cắt */
+}

@@ -1,0 +1,110 @@
+.discountListContainer {
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.title {
+    font-size: 30px !important;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.whiteBtn {
+    color: white !important;
+
+    .MuiButton-startIcon {
+        color: white !important;
+    }
+
+    span {
+        color: white !important;
+    }
+}
+
+.searchField {
+    width: 250px;
+
+    :global(.MuiInputLabel-outlined.MuiInputLabel-marginDense) {
+        transform: translate(14px, 12px) scale(1) !important;
+
+        /* Thay đổi màu sắc thành trắng */
+    }
+
+    :global(.MuiInputLabel-outlined.MuiInputLabel-shrink) {
+        transform: translate(14px, -20px) scale(0.75) !important;
+
+        /* Thay đổi màu sắc thành trắng */
+    }
+}
+
+.tableContainer {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.headContainer {
+    display: flex;
+    justify-content: space-between;
+    /* Căn chỉnh các phần tử về hai phía */
+    align-items: center;
+    /* Căn chỉnh theo chiều dọc */
+    margin-bottom: 20px;
+    /* Thêm khoảng cách dưới container */
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.headerCell {
+    font-weight: bold !important;
+    background-color: #f5f5f5 !important;
+}
+
+.tableCell {
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Đảm bảo nội dung quá dài không làm bảng bị vỡ */
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 5%;
+    /* Cố định chiều rộng cho cột 1 (Title) */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 30%;
+    /* Cố định chiều rộng cho cột 2 (Author) */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    width: 30%;
+    /* Cố định chiều rộng cho cột 3 (Category) */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+    width: 10%;
+    /* Cố định chiều rộng cho cột 4 (Status) */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+    width: 20%;
+    /* Cố định chiều rộng cho cột 5 (Actions) */
+}

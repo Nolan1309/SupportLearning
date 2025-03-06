@@ -1,0 +1,55 @@
+import React from "react";
+import styles from "./TestList.module.css";
+
+interface TestData {
+  id: number;
+  title: string;
+  score: number;
+  status: string;
+  date: Date;
+}
+
+interface TestListProps {
+  tests: TestData[];
+}
+
+const TestList: React.FC<TestListProps> = ({ tests }) => {
+  return (
+    <div className="test-history-result" style={{ height: "400px" }}>
+      <h3>Danh sách bài kiểm tra gần đây</h3>
+      <table className={styles.table}>
+        <thead>
+          <tr>
+            <th>Tên bài kiểm tra</th>
+            <th>Điểm</th>
+            <th>Trạng thái</th>
+            <th>Ngày</th>
+          </tr>
+        </thead>
+        <tbody>
+          {tests.map((test) => (
+            <tr key={test.id}>
+              <td>{test.title}</td>
+              <td >{test.score.toFixed(2)}</td>
+              <td>{test.status}</td>
+              <td>
+  {new Intl.DateTimeFormat("vi-VN", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  }).format(new Date(test.date))}
+</td>
+
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default TestList;

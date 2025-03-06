@@ -1,0 +1,38 @@
+    .addNotificationContainer {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 80vh;
+        background-color: #f5f5f5;
+        padding: 20px;
+    }
+
+    .paper {
+        padding: 30px;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .buttonContainer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .loadingContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }

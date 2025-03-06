@@ -1,0 +1,43 @@
+.headContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    /* Responsive flex layout */
+    flex-wrap: wrap;
+    /* Cho phép wrap nếu cần */
+}
+
+.searchField {
+    width: 250px;
+
+    :global(.MuiInputLabel-outlined.MuiInputLabel-marginDense) {
+        transform: translate(14px, 12px) scale(1) !important;
+
+        /* Thay đổi màu sắc thành trắng */
+    }
+
+    :global(.MuiInputLabel-outlined.MuiInputLabel-shrink) {
+        transform: translate(14px, -20px) scale(0.75) !important;
+
+        /* Thay đổi màu sắc thành trắng */
+    }
+}
+
+.filtersContainer {
+    display: flex;
+    gap: 8px;
+    /* Khoảng cách giữa các combobox */
+
+    /* Đảm bảo các combobox không vượt quá chiều rộng container */
+    flex-wrap: wrap;
+
+    /* Bạn có thể điều chỉnh gap theo nhu cầu, ví dụ: 8px, 12px */
+}
+
+.filterselect {
+    max-width: 200px !important;
+    min-width: 200px !important;
+
+}

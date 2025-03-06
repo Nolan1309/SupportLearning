@@ -1,0 +1,61 @@
+/* App.css */
+
+.reports-page {
+    padding: 2rem;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .summary-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .summary-table th, .summary-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .charts-container {
+    margin-top: 2rem;
+  }
+  
+  .chart {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  /* App.css */
+
+.reports-page {
+    padding: 2rem;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .summary-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .summary-table th, .summary-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .charts-container {
+    margin-top: 2rem;
+  }
+  
+  .chart {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  

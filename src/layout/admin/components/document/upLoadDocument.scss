@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header-container {
+    margin-bottom: 16px;
+}
+
+.table-container {
+    flex: 1;
+    overflow-x: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.add-document-button {
+    margin-right: 16px;
+}
+
+.delete-selected-button {
+    margin-left: 16px;
+}
+
+.description-field {
+    .MuiOutlinedInput-root {
+        &.Mui-focused fieldset {
+            border-color: black !important; // Sử dụng !important để đảm bảo CSS được áp dụng
+            border-width: 2px;
+        }
+
+        fieldset {
+            border-color: black !important; // Sử dụng !important để đảm bảo CSS được áp dụng
+            border-width: 2px;
+        }
+
+        &:hover fieldset {
+            border-color: black !important; // Sử dụng !important để đảm bảo CSS được áp dụng
+        }
+    }
+}

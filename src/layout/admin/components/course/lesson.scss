@@ -1,0 +1,30 @@
+.lesson-container {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .tabs {
+        margin-bottom: 20px;
+
+        .MuiTab-root {
+            text-transform: none;
+            font-weight: bold;
+        }
+    }
+
+    .text-field {
+        margin-bottom: 20px;
+    }
+
+    .file-upload-button {
+        margin-top: 20px;
+    }
+
+    .file-info {
+        margin-top: 20px;
+    }
+}

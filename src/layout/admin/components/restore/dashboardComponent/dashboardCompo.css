@@ -1,0 +1,48 @@
+/* Tạo kiểu cho nút tìm kiếm */
+.search-btn {
+    background-color: #3f51b5;
+    /* Màu nền nút */
+    color: white;
+    /* Màu chữ */
+    padding: 10px 20px;
+    /* Padding cho nút */
+    border-radius: 5px;
+    /* Bo góc cho nút */
+    border: none;
+    /* Bỏ viền nút */
+    cursor: pointer;
+    /* Con trỏ khi di chuột */
+    font-weight: bold;
+    /* Chữ đậm */
+    transition: background-color 0.3s;
+    /* Hiệu ứng chuyển màu nền */
+}
+
+.search-btn:hover {
+    background-color: #303f9f;
+    /* Màu nền khi hover */
+}
+
+/* Tạo kiểu cho bảng khóa học */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    /* Viền dưới cho các ô trong bảng */
+}
+
+.table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.table-row:hover {
+    background-color: #f9f9f9;
+}

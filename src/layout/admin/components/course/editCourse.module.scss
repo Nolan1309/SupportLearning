@@ -1,0 +1,24 @@
+.text-field {
+    margin-bottom: 30px !important;
+}
+
+.text-field:first-child {
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+}
+
+// .form-control {
+//     padding-bottom: 25px !important;
+// }
+
+.whiteBtn {
+    color: white !important;
+
+    .MuiButton-startIcon {
+        color: white !important;
+    }
+
+    span {
+        color: white !important;
+    }
+}
